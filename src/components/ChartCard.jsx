@@ -34,7 +34,7 @@ const ChartCard = ({ title, data, labels }) => {
           <Tooltip />
           <Line type="monotone" dataKey="value" stroke="#3b82f6" />
           
-          {/* 🔥 ZOOM FEATURE */}
+        
           <Brush dataKey="label" height={30} stroke="#8884d8" />
         </LineChart>
       </ResponsiveContainer>
